@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : com.edutilos.patience:JavaBasics : JavaBasics-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaBasics</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="JavaBasics-1.0-SNAPSHOT.war">
+      <element id="javaee-facet-resources" facet="JavaBasics/web/Web Gradle : JavaBasics-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaBasics" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.3.11/f6b34997d04c1538ce451d3955298f46fdb4dbd4/groovy-all-2.3.11.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/JavaBasics/exploded/JavaBasics-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
