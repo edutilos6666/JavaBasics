@@ -18,5 +18,7 @@ dependencies {
     compile group: 'javax.mail', name: 'mail', version: '1.4'
 // https://mvnrepository.com/artifact/javax.activation/activation
     compile group: 'javax.activation', name: 'activation', version: '1.1.1.redhat-5'
+// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.5'
 
 }
